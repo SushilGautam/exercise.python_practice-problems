@@ -3,7 +3,7 @@ class Lister(object):
     def get_integer_list(self, start, stop, step):
         if step != 0:
             result = []
-            for value in range(start, stop+1), step):
+            for value in range(start, stop+1, step):
                 result.append(value)
             return  result
         return [0]
